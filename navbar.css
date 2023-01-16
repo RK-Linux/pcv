@@ -1,0 +1,44 @@
+header {
+    background-color: var(--foscuro);
+}
+
+header nav a img {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    border-radius: 120px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--foscuro);
+    padding: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+}
+ ul {
+    display: flex;
+    color: var(--textob);
+    list-style: none;
+    line-height: 50px;
+}
+ li {
+    padding: 0 15px;
+    font-size: 0.5em;
+}
+li a:hover {
+    color: var(--fondoamarillo);
+    transition: ease-in-out 1s;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--textob);
+    padding-left: 20px;
+}
+h1 span {
+    font-weight: lighter;
+}
